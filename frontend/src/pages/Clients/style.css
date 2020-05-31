@@ -1,0 +1,118 @@
+/* botao delete */
+.content-client .buttons .delete{
+    cursor: pointer;
+    width: 40%;
+    height: 60px;
+    border-radius: 8px;
+    font-weight: 700;
+    line-height: 60px;
+    border: 0;
+    text-align: center;
+    color: white;
+    background: #000000;
+}
+
+/* botao de cancelar */
+.content-client .cancel {
+    text-decoration: underline;
+    color: black;
+    background: white;
+}
+
+/* container com o cabeçalho e o botao do lixeiro */
+.content-client .header {
+    margin-bottom: 14px;
+    border-bottom: 2px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* botao do lixeiro */
+.content-client .header button {
+    margin-bottom: 20px;
+    margin-right: 45px;    
+    width: 0;
+}
+
+/* adiciona uma margem inferior no cabeçalho */
+.content-client .header h1 {
+    margin-bottom: 32px;
+}
+
+/* tirando os espaços da caixa das descrições e as bolinhas padroes */
+.content-client ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Caixa com os nomes e as descrições */
+.content-client ul li {
+    border-bottom: 2px solid #999; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+ .content-client ul li .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+/* negrita o código dos clientes */
+.content-client ul li .right p {
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+
+/* posiciona o lápis na direita da pag */
+.content-client ul li .right .edit{
+    text-align: right;
+}
+
+/* aumenta a font dos nomes */
+.content-client ul li strong {    
+    font-size: 20px;
+}
+
+/* input e descição */
+.content-client ul li .description {
+    display: flex;
+    flex-direction: row;
+}
+
+/* adiciona um espaço entre o input e o texto */
+.content-client ul li .description input{
+    margin: 6px 10px 0 0;
+}
+
+/* botoes e caixa branca */
+.content-client {
+    width: 100%;
+    background: #ffffff;
+    margin-top: 50px;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.content-client button{
+    cursor: pointer;
+    width: 40%;
+    height: 60px;
+    border-radius: 8px;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 60px;
+    border: 0;
+}
+
+.content-client .buttons {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
